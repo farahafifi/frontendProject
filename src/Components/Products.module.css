@@ -1,83 +1,105 @@
-.card{
-    background-color: white;
-    /* margin-top: 6%; */
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-
+.card {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.img{
-    width: 100%;
-    height: 590px;
-}
-/* .psOverlay{
-    width: 100;
-    height: 400px;
-    position: relative;
-    background-color: rgba(128, 128, 128, 0.7);
-    z-index: 9999;
-} */
-.cards{
-    margin-top: 6%;
-    background-color: white;
-    width: 22%;
-    align-items: center;
-    height: 500px;
-    /* border: 7px solid #D81B60; */
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px gray;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    color: black;
+.img {
+  width: 100%;
+  height: 590px;
 }
 
-.Poverlay{
-    position: absolute;
-    width: 27%;
-    height: 71vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 99;
-
+.cards {
+  margin-top: 6%;
+  background-color: white;
+  width: 22%;
+  align-items: center;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: black;
 }
 
-.cards:hover.Poverlay{
-display: block;
-}
-.card img{
-    width: 70%;
-    height: 250px;
-}
-.cards p{
-    color: black;
-    font-weight: 700;
-}
-.pbuttons{
-    display: flex;
-    width: 250px;
-    justify-content: space-between;
-
-}
-.pbutton{
-    width: 100px;
-    height: 40px;
-    border: 2 solid rgb(146, 146, 255);
-    background-color: white;
-    cursor: pointer;
-    border-radius: 20px;
-    /* transition: 1s; */
+.Poverlay {
+  position: absolute;
+  width: 27%;
+  height: 71vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
 }
 
-button:hover{
-    background-color: rgb(146, 146, 255);
-    color: black;
+.cards:hover.Poverlay {
+  display: block;
+}
+.card img {
+  width: 70%;
+  height: 250px;
+}
+.cards p {
+  color: black;
+  font-weight: 700;
+}
+.pbuttons {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+.pbutton {
+  width: 100px;
+  height: 40px;
+  border: 2 solid rgb(146, 146, 255);
+  background-color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  /* transition: 1s; */
 }
 
-.clicked{
-    visibility: hidden;
+button:hover {
+  background-color: rgb(146, 146, 255);
+  color: black;
+}
+
+.clicked {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .cards {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .cards {
+    width: 281px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .cards {
+    width: 273px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 430px) {
+  .cards {
+    width: 267px;
+  }
+  .img {
+    height: 311px;
+    width: 117%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .cards {
+    width: 267px;
+  }
+  .img {
+    height: 311px;
+    width: 117%;
+  }
 }

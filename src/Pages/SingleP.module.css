@@ -47,3 +47,25 @@ p {
 .clicked{
   visibility: hidden;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+ 
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  
+}
+@media screen and (max-width: 768px) and (min-width: 600px){
+
+}
+ 
+@media screen and (max-width: 600px) and (min-width: 430px){
+  .pCard{
+    height: 53vh;
+  }
+}
+@media screen and (max-width: 430px){
+  .pCard{
+    height: 45vh;
+  }
+
+}

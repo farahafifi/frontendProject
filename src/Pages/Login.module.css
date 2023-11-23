@@ -99,3 +99,51 @@
 .llp {
   color: red;
 }
+
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+ 
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .Lcontainer{
+    bottom: 13%;
+    left: 28%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 600px){
+.Lcontainer{
+  bottom: 10%;
+  left: 22%;
+}
+}
+ 
+@media screen and (max-width: 600px) and (min-width: 430px){
+.Lcontainer{
+  bottom: 3%;
+  left: 24%;
+}
+.icon{
+  width: 114%;
+  height: 115vh;
+}
+.Loverlay{
+  width: 114%;
+  height: 115vh;
+}
+}
+@media screen and (max-width: 430px){
+ 
+.Lcontainer{
+  bottom: 6%;
+  left: 7%;
+}
+.icon{
+  width: 114%;
+  height: 115vh;
+}
+.Loverlay{
+  width: 114%;
+  height: 115vh;
+}
+}
+
