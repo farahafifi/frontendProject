@@ -1,0 +1,102 @@
+.firstContainer{
+  display: flex;
+  justify-content: space-between;
+
+}
+.mainCConatiner {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* height: 100vh; */
+}
+
+.maincCard {
+  display: flex;
+  flex-direction: column;
+}
+.Ccontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.cCard {
+  margin-top: 3%;
+  width: 500px;
+  height: 195px;
+  display: flex;
+  border-radius: 20px;
+  /* box-shadow: 10px 10px 10px gray; */
+  margin-left: 3%;
+}
+/* .secondContainer::before{
+  width: 100%;
+  height: 2px;
+  background-color: brown;
+
+} */
+
+/* .secondContainer {
+  border: 2px solid rgb(146, 146, 255);
+  position: absolute;
+  top: 121px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+  display: flex;
+  flex-direction: column;
+  left: 69%;
+  width: 450px;
+  height: 500px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+} */
+.img {
+  width: 235%;
+  height: 100%;
+}
+.img img {
+  height: 100%;
+  width: 100%;
+}
+.cTitle {
+  font-weight: 900;
+}
+
+.cButton {
+  width: 118px;
+  height: 35px;
+  cursor: pointer;
+}
+.cButton:hover {
+  color: white;
+  background-color: rgb(146, 146, 255);
+}
+
+.cText {
+  margin-left: 3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.cText p {
+  color: black;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.myCart{
+  font-size: 44px;
+  font-weight: 900;
+  position: relative;
+  margin-bottom: 5%;
+  margin-left: 1%;
+
+}
+
+.break{
+  width: 2px;
+  height: 55vh;
+  background-color: black;
+}

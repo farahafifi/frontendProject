@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Lcontainer {
+  position: absolute;
+  bottom: 20%;
+  left: 34%;
+  z-index: 8888888;
+  width: 380px;
+  height: 500px;
+  box-shadow: 10px 10px 5px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid rgb(146, 146, 255);
+  border-radius: 20px;
+  margin-top: 6%;
+}
+
+.email {
+  width: 300px;
+  height: 50px;
+  border: 2px solid rgb(146, 146, 255);
+  border-radius: 20px;
+}
+.password {
+  width: 300px;
+  height: 50px;
+  border: 2px solid rgb(146, 146, 255);
+  border-radius: 20px;
+}
+
+.Lbutton {
+  width: 100px;
+  height: 40px;
+  border: 2px solid rgb(146, 146, 255);
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 1s;
+  position: absolute;
+  left: 40%;
+  bottom: 14%;
+  z-index: 999999999999;
+}
+
+.Lbutton:hover {
+  background-color: rgb(146, 146, 255);
+  color: white;
+}
+
+.icon {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+
+  left: 0;
+  top: 0;
+}
+
+.Loverlay {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 99;
+}
+
+.Style.Lp {
+  font-size: 23px;
+  color: rgb(146, 146, 255);
+}
+
+.icon1 {
+  width: 97px;
+  height: 60px;
+  position: absolute;
+  z-index: 99999999999999999999999999;
+  animation-name: motionlogo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes motionlogo {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.Lp {
+  color: rgb(146, 146, 255);
+}
+
+.llp {
+  color: red;
+}

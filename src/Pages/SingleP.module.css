@@ -1,0 +1,49 @@
+.pCard {
+ margin-top: 3%;
+  width: 90%;
+  height: 84vh;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+  margin-left: 7%;
+}
+
+.img {
+  width: 147%;
+  height: 100%;
+}
+.img img {
+  height: 100%;
+  width: 100%;
+}
+.pTitle{
+    font-weight: 900;
+}
+
+.pButton {
+  width: 118px;
+  height: 35px;
+  cursor: pointer;
+}
+.pButton:hover {
+  color: white;
+  background-color: rgb(146, 146, 255);
+}
+
+.pText {
+  margin-left: 7%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+p {
+  color: black;
+  font-weight: 700;
+}
+
+.clicked{
+  visibility: hidden;
+}

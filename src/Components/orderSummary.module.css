@@ -1,0 +1,32 @@
+.mainConatiner{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+    background-color: whitesmoke;
+    width: 350px;
+    padding: 11px;
+    overflow: overlay;
+    height: 382px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-self: flex-start;
+
+
+}
+
+.oTitle{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.oTitle p{
+    margin-bottom: 1%;
+}
+
+
+.oButton{
+    border-radius: 20px;
+    cursor: pointer;
+}
